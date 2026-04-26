@@ -14,6 +14,12 @@ body {
     border-radius: 30px;
 }
 
+.profile-container:hover {
+    animation: slieIn 1s ease-out;
+    transform: translate(0, 3px);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.35);
+}
+
 img {
     width: 400px;
     border-radius: 30px;
